@@ -1,0 +1,203 @@
+<NotepadPlus>
+    <Project name="bs">
+        <Folder name=".git">
+            <Folder name="branches" />
+            <Folder name="hooks">
+                <File name=".git\hooks\applypatch-msg.sample" />
+                <File name=".git\hooks\commit-msg.sample" />
+                <File name=".git\hooks\post-update.sample" />
+                <File name=".git\hooks\pre-applypatch.sample" />
+                <File name=".git\hooks\pre-commit.sample" />
+                <File name=".git\hooks\pre-push.sample" />
+                <File name=".git\hooks\pre-rebase.sample" />
+                <File name=".git\hooks\prepare-commit-msg.sample" />
+                <File name=".git\hooks\update.sample" />
+            </Folder>
+            <Folder name="info">
+                <File name=".git\info\exclude" />
+            </Folder>
+            <Folder name="logs">
+                <Folder name="refs">
+                    <Folder name="heads">
+                        <File name=".git\logs\refs\heads\master" />
+                    </Folder>
+                    <Folder name="remotes">
+                        <Folder name="origin">
+                            <File name=".git\logs\refs\remotes\origin\master" />
+                        </Folder>
+                    </Folder>
+                </Folder>
+                <File name=".git\logs\HEAD" />
+            </Folder>
+            <Folder name="objects">
+                <Folder name="10">
+                    <File name=".git\objects\10\e9e75686729e43ad6b2336bb1038eac27cd647" />
+                </Folder>
+                <Folder name="15">
+                    <File name=".git\objects\15\d41d69d9989b6dd74747308bb1c96a785b030a" />
+                </Folder>
+                <Folder name="1c">
+                    <File name=".git\objects\1c\b378ff36af41c8932bf627d1e8c1aaa61606bd" />
+                </Folder>
+                <Folder name="1e">
+                    <File name=".git\objects\1e\7c9660c28a9d8added69800fa44854869d6c01" />
+                </Folder>
+                <Folder name="2e">
+                    <File name=".git\objects\2e\fcaeaa852ff5b8c4ff965c32e41caaedf8db09" />
+                </Folder>
+                <Folder name="30">
+                    <File name=".git\objects\30\e866558a23c7c5accea0b00f540ebf1759e4c9" />
+                </Folder>
+                <Folder name="31">
+                    <File name=".git\objects\31\1b28b8b6e9efaa0d29597063dddc09d25998a5" />
+                </Folder>
+                <Folder name="5c">
+                    <File name=".git\objects\5c\f3c6afaeff57ce0e81649b3d3ad6c07cec4207" />
+                </Folder>
+                <Folder name="6d">
+                    <File name=".git\objects\6d\ab3fbae0a24c093d1d7f5156228fadae455128" />
+                </Folder>
+                <Folder name="6e">
+                    <File name=".git\objects\6e\11894fe18b43f3711b658a3ae801b622c977cf" />
+                </Folder>
+                <Folder name="7d">
+                    <File name=".git\objects\7d\352a4df777438d9b9ac59ae8d65b0736f996d2" />
+                </Folder>
+                <Folder name="a0">
+                    <File name=".git\objects\a0\07feab071f496a016f150e1acd8fae57669cce" />
+                </Folder>
+                <Folder name="ac">
+                    <File name=".git\objects\ac\49dbdb67431c71f8c77a667845aa7a1289f543" />
+                </Folder>
+                <Folder name="b1">
+                    <File name=".git\objects\b1\bf440993aac0d6987218454f1f382cba42e279" />
+                </Folder>
+                <Folder name="c5">
+                    <File name=".git\objects\c5\fcfd19d9196be17a4bc23d61db0aae3ca2bce4" />
+                </Folder>
+                <Folder name="f2">
+                    <File name=".git\objects\f2\d3cfdb1ed9a10952cd2945b73d70f240060389" />
+                </Folder>
+                <Folder name="f6">
+                    <File name=".git\objects\f6\5f3e7d91f67b38bef1c1bf83b54dc94af52a41" />
+                </Folder>
+                <Folder name="fb">
+                    <File name=".git\objects\fb\2f9b62ada528069f324978fcdf8fb23ea55b47" />
+                </Folder>
+                <Folder name="fd">
+                    <File name=".git\objects\fd\be1d9b0f03acac17ef4432144b82332ae66a4d" />
+                </Folder>
+                <Folder name="info" />
+                <Folder name="pack" />
+            </Folder>
+            <Folder name="refs">
+                <Folder name="heads">
+                    <File name=".git\refs\heads\master" />
+                </Folder>
+                <Folder name="remotes">
+                    <Folder name="origin">
+                        <File name=".git\refs\remotes\origin\master" />
+                    </Folder>
+                </Folder>
+                <Folder name="tags" />
+            </Folder>
+            <File name=".git\COMMIT_EDITMSG" />
+            <File name=".git\config" />
+            <File name=".git\description" />
+            <File name=".git\HEAD" />
+            <File name=".git\index" />
+        </Folder>
+        <Folder name="build">
+            <Folder name="CMakeFiles">
+                <Folder name="3.5.1">
+                    <Folder name="CompilerIdC">
+                        <File name="build\CMakeFiles\3.5.1\CompilerIdC\a.out" />
+                        <File name="build\CMakeFiles\3.5.1\CompilerIdC\CMakeCCompilerId.c" />
+                    </Folder>
+                    <Folder name="CompilerIdCXX">
+                        <File name="build\CMakeFiles\3.5.1\CompilerIdCXX\a.out" />
+                        <File name="build\CMakeFiles\3.5.1\CompilerIdCXX\CMakeCXXCompilerId.cpp" />
+                    </Folder>
+                    <File name="build\CMakeFiles\3.5.1\CMakeCCompiler.cmake" />
+                    <File name="build\CMakeFiles\3.5.1\CMakeCXXCompiler.cmake" />
+                    <File name="build\CMakeFiles\3.5.1\CMakeDetermineCompilerABI_C.bin" />
+                    <File name="build\CMakeFiles\3.5.1\CMakeDetermineCompilerABI_CXX.bin" />
+                    <File name="build\CMakeFiles\3.5.1\CMakeSystem.cmake" />
+                </Folder>
+                <Folder name="CMakeTmp" />
+                <File name="build\CMakeFiles\cmake.check_cache" />
+                <File name="build\CMakeFiles\CMakeDirectoryInformation.cmake" />
+                <File name="build\CMakeFiles\CMakeOutput.log" />
+                <File name="build\CMakeFiles\feature_tests.bin" />
+                <File name="build\CMakeFiles\feature_tests.c" />
+                <File name="build\CMakeFiles\feature_tests.cxx" />
+                <File name="build\CMakeFiles\Makefile.cmake" />
+                <File name="build\CMakeFiles\Makefile2" />
+                <File name="build\CMakeFiles\progress.marks" />
+                <File name="build\CMakeFiles\TargetDirectories.txt" />
+            </Folder>
+            <Folder name="src">
+                <Folder name="CMakeFiles">
+                    <Folder name="BattleShip.dir">
+                        <File name="build\src\CMakeFiles\BattleShip.dir\build.make" />
+                        <File name="build\src\CMakeFiles\BattleShip.dir\C.includecache" />
+                        <File name="build\src\CMakeFiles\BattleShip.dir\checkBoard.c.o" />
+                        <File name="build\src\CMakeFiles\BattleShip.dir\cmake_clean.cmake" />
+                        <File name="build\src\CMakeFiles\BattleShip.dir\computerTurn.c.o" />
+                        <File name="build\src\CMakeFiles\BattleShip.dir\depend.internal" />
+                        <File name="build\src\CMakeFiles\BattleShip.dir\depend.make" />
+                        <File name="build\src\CMakeFiles\BattleShip.dir\DependInfo.cmake" />
+                        <File name="build\src\CMakeFiles\BattleShip.dir\flags.make" />
+                        <File name="build\src\CMakeFiles\BattleShip.dir\getSizeOfShip.c.o" />
+                        <File name="build\src\CMakeFiles\BattleShip.dir\link.txt" />
+                        <File name="build\src\CMakeFiles\BattleShip.dir\main.c.o" />
+                        <File name="build\src\CMakeFiles\BattleShip.dir\placeShip.c.o" />
+                        <File name="build\src\CMakeFiles\BattleShip.dir\playerTurn.c.o" />
+                        <File name="build\src\CMakeFiles\BattleShip.dir\printBoard.c.o" />
+                        <File name="build\src\CMakeFiles\BattleShip.dir\printSym.c.o" />
+                        <File name="build\src\CMakeFiles\BattleShip.dir\progress.make" />
+                        <File name="build\src\CMakeFiles\BattleShip.dir\quitHndl.c.o" />
+                        <File name="build\src\CMakeFiles\BattleShip.dir\setUpBoard.c.o" />
+                        <File name="build\src\CMakeFiles\BattleShip.dir\shipSymbol.c.o" />
+                    </Folder>
+                    <File name="build\src\CMakeFiles\CMakeDirectoryInformation.cmake" />
+                    <File name="build\src\CMakeFiles\progress.marks" />
+                </Folder>
+                <File name="build\src\BattleShip" />
+                <File name="build\src\cmake_install.cmake" />
+                <File name="build\src\Makefile" />
+            </Folder>
+            <File name="build\BattleShip" />
+            <File name="build\CMakeCache.txt" />
+            <File name="build\cmake_install.cmake" />
+            <File name="build\Makefile" />
+        </Folder>
+        <Folder name="src">
+            <File name="src\bs.h" />
+            <File name="src\checkBoard.c" />
+            <File name="src\CMakeLists.txt" />
+            <File name="src\computerTurn.c" />
+            <File name="src\getSizeOfShip.c" />
+            <File name="src\main.c" />
+            <File name="src\placeShip.c" />
+            <File name="src\playerTurn.c" />
+            <File name="src\printBoard.c" />
+            <File name="src\printSym.c" />
+            <File name="src\quitHndl.c" />
+            <File name="src\setUpBoard.c" />
+            <File name="src\shipSymbol.c" />
+            <Folder name="stack">
+                <File name="src\stack\stack.h" />
+                <File name="src\stack\getSize.c" />
+                <File name="src\stack\killStack.c" />
+                <File name="src\stack\makeStack.c" />
+                <File name="src\stack\pop.c" />
+                <File name="src\stack\push.c" />
+                <File name="src\stack\stack.h" />
+            </Folder>
+        </Folder>
+        <File name=".gitignore" />
+        <File name="CMakeLists.txt" />
+        <File name="README.md" />
+    </Project>
+</NotepadPlus>
