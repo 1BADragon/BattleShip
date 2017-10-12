@@ -10,6 +10,8 @@
 #include <sys/ioctl.h>
 #include <unistd.h>
 
+#include <stack.h>
+
 char msgBuff[1024];
 
 struct game {
@@ -17,7 +19,14 @@ struct game {
 };
 
 struct ai {
+	struct stack *hits;
+};
 
+struct hit {
+	int x;
+	int y;
+	int dirs[4];
+	int last_dir;
 };
 
 
@@ -31,5 +40,8 @@ void computerTurn(struct game*, struct ai*);
 void quitHndl(int);
 void printBoard(struct game*);
 void printSym(char s);
+struct hit *makeHit(int, int, int);
+void killHit(void *);
+void getDelta(int d, int *dx, int *dy);
 
 #endif //BS_H

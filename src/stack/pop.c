@@ -1,4 +1,4 @@
-#include "stack.h"
+#include <stack.h>
 
 void *pop(struct stack *stack)
 {
@@ -6,9 +6,10 @@ void *pop(struct stack *stack)
 	{
 		return NULL;
 	}
-	struct stack *head = stack->head;
+	struct node *head = stack->head;
 	void *ret = head->data;
 	stack->head = head->next;
 	free(head);
+	stack->size--;
 	return ret;
 }

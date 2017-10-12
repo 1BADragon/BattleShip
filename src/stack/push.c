@@ -9,7 +9,8 @@ void push(struct stack *stack, void *data)
 		exit(1);
 	}
 	node->data = data;
-	node->next = stack->next;
+	node->next = stack->head;
 	
-	stack->next = node;
+	stack->head = node;
+	stack->size++;
 }

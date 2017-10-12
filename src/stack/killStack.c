@@ -1,4 +1,4 @@
-#include "stack.h"
+#include <stack.h>
 
 void killStack(struct stack *stack, void (*free_data)(void *))
 {

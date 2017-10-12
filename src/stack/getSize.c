@@ -1,5 +1,5 @@
 
-#include "stack.h"
+#include <stack.h>
 
 unsigned int getSize(struct stack *stack)
 {

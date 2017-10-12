@@ -10,25 +10,7 @@ restart:
     d = rand() % 4;
 
     xd = 0, yd = 0;
-    switch(d)
-    {
-        case 0:
-            yd = 1;
-            xd = 0;
-            break;
-        case 1:
-            yd = 0;
-            xd = 1;
-            break;
-        case 2:
-            yd = -1;
-            xd = 0;
-            break;
-        case 3:
-            yd = 0;
-            xd = -1;
-            break;
-    }
+    getDelta(d, &xd, &yd);
     tyd = yd * size;
     txd = xd * size;
     if(x + txd < 0 || x + txd > 9 || y + tyd < 0 || y + tyd > 9)

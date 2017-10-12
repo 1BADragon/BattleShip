@@ -1,5 +1,5 @@
 
-#include "stack.h"
+#include <stack.h>
 
 struct stack *makeStack()
 {
