@@ -9,10 +9,12 @@
 #include <signal.h>
 #include <sys/ioctl.h>
 #include <unistd.h>
+#include <termios.h>
 
 #include <stack.h>
 
 char msgBuff[1024];
+struct termios old_tp;
 
 struct game {
     char feild[2][10][10];

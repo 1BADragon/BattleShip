@@ -8,6 +8,20 @@ int main()
     struct ai computer;
 	memset(&board, '*', sizeof(struct game));
     memset(&computer, 0, sizeof(struct ai));
+	struct termios tp;
+	if(tcgetattr(STDIN_FILENO, &tp) == -1)
+	{
+		printf("tcgetattr\n");
+		exit(1);
+	}
+	old_tp = tp;
+	tp.c_lflag &= ~ECHO;
+	tp.c_lflag &= ~ICANON;
+	if(tcsetattr(STDIN_FILENO, TCSANOW, &tp) == -1)
+	{
+		printf("tcsetattr\n");
+		exit(1);
+	}
 	
 	computer.hits = makeStack();
     setUpBoard(&board);
@@ -36,6 +50,8 @@ int main()
 	
 	scanf("%c", &c);
 	printf("\033[2J");
+	
+	tcsetattr(STDIN_FILENO, TCSANOW, &old_tp);
 	
     return 0;
 }

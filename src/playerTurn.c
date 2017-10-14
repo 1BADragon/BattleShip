@@ -13,8 +13,23 @@ beginning:
             "|     |\n"
             "+-----+\n");
     printf("\e[14;2H");
-    scanf(" %c%d", &c, &d);
+    //scanf(" %c%d", &c, &d);
+	do
+	{
+		c = getchar();
+	}
+	while(!((c >= 'a' && c <= 'j') ||
+			(c >= 'A' && c <= 'J')));
+	printf("%c", c);
+	do
+	{	
+		d = getchar() - '0';
+	}
+	while(!(d >= 0 && d <= 9));
+	printf("%d", d);
     c = toupper(c);
+	if(d == 0)
+		d = 10;
     e = c - 'A';
     d = d - 1;
     if(e >= 10 || d >= 10)
